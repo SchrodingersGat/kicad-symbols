@@ -1560,6 +1560,12 @@ K Miniature Step-Down Buck Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lmr10510.pdf
 $ENDCMP
 #
+$CMP LMR14030
+D 3.5A, 40V Step-Down Voltage Regulator, adjustable switching frequency, SOIC-8
+K Step-Down Buck Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lmr14030.pdf
+$ENDCMP
+#
 $CMP LMR14206
 D Simple Switcher Buck Regulator, Vin=4.5-42V, Iout=600mA, Adjustable output voltage, SOT-23-6 package
 K simple-switcher buck step-down voltage-regulator
