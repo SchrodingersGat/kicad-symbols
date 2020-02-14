@@ -87,6 +87,24 @@ K RS485 Transciever, RS422 Transciever, Isopower
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM2682E_2687E.pdf
 $ENDCMP
 #
+$CMP ADM3488ExR
+D RS-485, RS-422 full duplex 250 kbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
+$CMP ADM3490ExR
+D RS-485, RS-422 full duplex 12 Mbps transceiver, SOIC-8
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
+$CMP ADM3491ExR
+D RS-485, RS-422 full duplex 12 Mbps transceiver, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3483E_3486E_3488E_3490E_3491E.pdf
+$ENDCMP
+#
 $CMP GD65232DB
 D Multiple RS-232 Driver and Receiver, SSOP-20
 K RS232 UART Driver Receiver Interface
@@ -94,7 +112,7 @@ F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
 #
 $CMP GD65232DW
-D Multiple RS-232 Driver and Receiver, SOIC20
+D Multiple RS-232 Driver and Receiver, SOIC-20
 K RS232 UART Driver Receiver Interface
 F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
@@ -112,13 +130,13 @@ F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
 #
 $CMP GD75232DW
-D Multiple RS-232 Driver and Receiver, SOIC20
+D Multiple RS-232 Driver and Receiver, SOIC-20
 K RS232 UART Driver Receiver Interface
 F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
 #
 $CMP GD75232N
-D Multiple RS-232 Driver and Receiver, PDIP-20
+D Multiple RS-232 Driver and Receiver, DIP-20
 K RS232 UART Driver Receiver Interface
 F http://www.ti.com/lit/ds/symlink/gd75232.pdf
 $ENDCMP
@@ -232,19 +250,19 @@ F http://datasheets.maximintegrated.com/en/ds/MAX3051.pdf
 $ENDCMP
 #
 $CMP MAX3072E
-D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8
 K Low Power Half-Duplex RS-485 RS-422 Transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP
 #
 $CMP MAX3075E
-D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8
 K Low Power Half-Duplex RS-485 RS-422 Transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP
 #
 $CMP MAX3078E
-D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers
+D +3.3V, ±15kV ESD-Protected, Fail-Safe, Hot-Swap, RS-485/RS-422 Transceivers, SOIC-8
 K Low Power Half-Duplex RS-485 RS-422 Transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX3070E-MAX3079E.pdf
 $ENDCMP
@@ -430,7 +448,7 @@ F http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 $ENDCMP
 #
 $CMP SP3481CN
-D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
@@ -442,7 +460,7 @@ F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
 $CMP SP3481EN
-D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
@@ -454,7 +472,7 @@ F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
 $CMP SP3485CN
-D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+D 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
@@ -466,7 +484,7 @@ F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
 $CMP SP3485EN
-D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SO8
+D Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8
 K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
