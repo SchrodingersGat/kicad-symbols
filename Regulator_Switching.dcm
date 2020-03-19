@@ -1608,6 +1608,18 @@ K Buck Boost step-up step-down
 F http://www.ti.com/lit/ds/symlink/lm5175.pdf
 $ENDCMP
 #
+$CMP LM5176PWP
+D 55-V wide Vin synchronous 4-switch Buck-Boost controller, HTSSOP-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5176.pdf
+$ENDCMP
+#
+$CMP LM5176RHF
+D 55-V wide Vin synchronous 4-switch Buck-Boost controller, QFN-28 package
+K Buck Boost step-up step-down
+F http://www.ti.com/lit/ds/symlink/lm5176.pdf
+$ENDCMP
+#
 $CMP LMR10510XMF
 D 1A, 5.5V Step-Down Voltage Regulator, 1.6MHz Frequency, SOT-23-5
 K Miniature Step-Down Buck Voltage Regulator
@@ -1654,6 +1666,18 @@ $CMP LMR16006YQ5
 D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 5.0V output voltage, SOT-23-6 package
 K simple-switcher buck step-down voltage-regulator
 F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR33640ADDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=400kHz, Adjustable output voltage
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
+$ENDCMP
+#
+$CMP LMR33640DDDA
+D Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=4A, F=1000kHz, Adjustable output voltage
+K simple-switcher synchronous buck step-down voltage-regulator
+F http://www.ti.com/lit/ds/symlink/lmr33640.pdf
 $ENDCMP
 #
 $CMP LMR62014XMF
@@ -3976,6 +4000,114 @@ $CMP ST1S14PHR
 D 3A step-down switching regulator, Adjustable Output Voltage, 5.5-48V Input Voltage, 850kHz, PowerSO-8
 K DC/DC Buck Conwerter 3A
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
+$ENDCMP
+#
+$CMP TDN_5-0910WISM
+D Input 4.5 to 13.2V, Output 3.3V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0911WISM
+D Input 4.5 to 13.2V, Output 5.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0912WISM
+D Input 4.5 to 13.2V, Output 12.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0913WISM
+D Input 4.5 to 13.2V, Output 15.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0915WISM
+D Input 4.5 to 13.2V, Output 24.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-0919WISM
+D Input 4.5 to 13.2V, Output 9.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2410WISM
+D Input 9.0 to 36.0V, Output 3.3V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2411WISM
+D Input 9.0 to 36.0V, Output 5.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2412WISM
+D Input 9.0 to 36.0V, Output 12.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2413WISM
+D Input 9.0 to 36.0V, Output 15.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2415WISM
+D Input 9.0 to 36.0V, Output 24.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-2419WISM
+D Input 9.0 to 36.0V, Output 9.0V
+K dcdc traco 5WW
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4810WISM
+D Input 18.0 to 75.0V, Output 3.3V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4811WISM
+D Input 18.0 to 75.0V, Output 5.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4812WISM
+D Input 18.0 to 75.0V, Output 12.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4813WISM
+D Input 18.0 to 75.0V, Output 15.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4815WISM
+D Input 18.0 to 75.0V, Output 24.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
+$ENDCMP
+#
+$CMP TDN_5-4819WISM
+D Input 18.0 to 75.0V, Output 9.0V
+K dcdc traco 5W
+F https://assets.tracopower.com/20190626081517/TDN5WISM/documents/tdn5wism-datasheet.pdf
 $ENDCMP
 #
 $CMP TL497
