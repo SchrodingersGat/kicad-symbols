@@ -1578,6 +1578,10 @@ K step-down dc-dc buck regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lm5161.pdf
 $ENDCMP
 #
+$CMP LM5164
+F https://www.ti.com/lit/ds/symlink/lm5164.pdf?ts=1588069505648
+$ENDCMP
+#
 $CMP LM5165
 D 150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10
 K step-down dc-dc buck regulator adjustable
