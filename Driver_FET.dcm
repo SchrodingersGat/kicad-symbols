@@ -1,9 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2ED21824S06J
+D 650V Half Bridge Gate Driver with Integrated Bootstrap Diode, 2.5A drive current, SO-14
+K Gate Driver MOSFET IGBT
+F https://www.infineon.com/dgdl/Infineon-2ED2182-4-S06F-J-DataSheet-v02_10-EN.pdf?fileId=5546d4626cb27db2016cb8d7368a29e3
+$ENDCMP
+#
 $CMP 2EDL23N06PJXUMA1
-D 600 V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, +1.8A/-2.5A drive current, DSO-14 
+D 600V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, +1.8A/-2.5A drive current, DSO-14
 K Gate Driver MOSFET IGBT
 F https://www.infineon.com/dgdl/Infineon-2EDL23x06xx-DS-v02_01-EN.pdf?fileId=5546d46146d18cb4014738a20c5236f0
+$ENDCMP
+#
+$CMP 6EDL04N02PRXUMA1
+D 3 Half-Bridge Gate-Drive IC, 200V operation, Output Current 350/650mA, TSSOP-28
+K 3 Phase Gate Driver
+F https://www.infineon.com/dgdl/6ED2-DB-Rev2_3.pdf?folderId=db3a30431a5c32f2011a77fa27a86cb5&fileId=db3a304336797ff901367c18c18445af
 $ENDCMP
 #
 $CMP ACPL-P343
@@ -58,6 +70,12 @@ $CMP FAN7371
 D High-Current High-Side Gate Driver, 600V Vs, 4A Io, SOIC-8
 K high-side gate driver
 F https://www.fairchildsemi.com/datasheets/FA/FAN7371.pdf
+$ENDCMP
+#
+$CMP FAN7388
+D 3 Half-Bridge Gate-Drive IC, 600V operation, Output Current 350/650mA, SOIC-20
+K 3 Phase Gate Driver
+F https://www.onsemi.com/pub/Collateral/FAN7388-D.pdf
 $ENDCMP
 #
 $CMP FAN7842
@@ -694,6 +712,12 @@ $CMP IRS2890DS
 D Half-Bridge Driver with Overcurrent Protection, 600V, 220/480mA, SOIC-14
 K Gate Driver
 F https://www.infineon.com/dgdl/Infineon-IRS2890DS-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aad6fbc8a4bf4
+$ENDCMP
+#
+$CMP L6491
+D 600V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, 4A drive current, DSO-14
+K Gate Driver MOSFET IGBT
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/39/4a/2e/5f/bc/cf/42/20/DM00088170.pdf/files/DM00088170.pdf/jcr:content/translations/en.DM00088170.pdf
 $ENDCMP
 #
 $CMP LM5109AMA
