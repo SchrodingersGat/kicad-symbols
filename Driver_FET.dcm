@@ -1,21 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1EDN7550B
+D Single-Channel EiceDRIVER With True Differential Inputs, 4V UVLO, +4/-8A, SOT-23-6
+K Driver, Dual MOSFET
+F https://www.infineon.com/dgdl/Infineon-1EDN7550B-DS-v02_00-EN.pdf?fileId=5546d46262b31d2e01635d9799ef264f
+$ENDCMP
+#
+$CMP 1EDN8550B
+D Single-Channel EiceDRIVER With True Differential Inputs, 8V UVLO, +4/-8A, SOT-23-6
+K Driver, Dual MOSFET
+F https://www.infineon.com/dgdl/Infineon-1EDN7550B-DS-v02_00-EN.pdf?fileId=5546d46262b31d2e01635d9799ef264f
+$ENDCMP
+#
 $CMP 2ED21824S06J
-D 650V Half Bridge Gate Driver with Integrated Bootstrap Diode, 2.5A drive current, SO-14
+D 650V Half Bridge Gate Driver with Integrated Bootstrap Diode, 2.5A drive current, SOIC-14
 K Gate Driver MOSFET IGBT
 F https://www.infineon.com/dgdl/Infineon-2ED2182-4-S06F-J-DataSheet-v02_10-EN.pdf?fileId=5546d4626cb27db2016cb8d7368a29e3
 $ENDCMP
 #
 $CMP 2EDL23N06PJXUMA1
-D 600V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, +1.8A/-2.5A drive current, DSO-14
+D 600V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, +1.8A/-2.5A drive current, SOIC-14
 K Gate Driver MOSFET IGBT
 F https://www.infineon.com/dgdl/Infineon-2EDL23x06xx-DS-v02_01-EN.pdf?fileId=5546d46146d18cb4014738a20c5236f0
 $ENDCMP
 #
-$CMP 6EDL04N02PRXUMA1
-D 3 Half-Bridge Gate-Drive IC, 200V operation, Output Current 350/650mA, TSSOP-28
-K 3 Phase Gate Driver
-F https://www.infineon.com/dgdl/6ED2-DB-Rev2_3.pdf?folderId=db3a30431a5c32f2011a77fa27a86cb5&fileId=db3a304336797ff901367c18c18445af
+$CMP ACPL-336J
+D 2.5A Gate Drive Optocoupler with Integrated LED Driver, Active Miller Clamp, DESAT Detection, and Fault & UVLO Status Feedback, SOIC-16
+K Gate Driver IGBT
+F https://docs.broadcom.com/docs/AV02-4391EN
 $ENDCMP
 #
 $CMP ACPL-P343
@@ -780,10 +792,22 @@ K Gate Driver
 F https://www.infineon.com/dgdl/Infineon-IRS2890DS-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aad6fbc8a4bf4
 $ENDCMP
 #
-$CMP L6491
-D 600V Half Bridge Gate Driver with OCP and Integrated Bootstrap Diode, 4A drive current, DSO-14
-K Gate Driver MOSFET IGBT
-F https://www.st.com/content/ccc/resource/technical/document/datasheet/39/4a/2e/5f/bc/cf/42/20/DM00088170.pdf/files/DM00088170.pdf/jcr:content/translations/en.DM00088170.pdf
+$CMP ITS711L1
+D Smart High-Side Power Switch for Industrial Applications, Four Channels, Rds 200mΩ, SOIC-20W
+K driver fet quad
+F https://www.infineon.com/dgdl/Infineon-ITS711L1-DS-v01_03-en.pdf?fileId=db3a30432239cccd0122e560bae03c62
+$ENDCMP
+#
+$CMP ITS716G
+D Smart High-Side Power Switch for Industrial Applications, Four Channels, Rds 140mΩ, SOIC-20W
+K driver fet quad
+F https://www.infineon.com/dgdl/Infineon-ITS716G-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428c2cf3e6d
+$ENDCMP
+#
+$CMP ITS724G
+D Smart High-Side Power Switch for Industrial Applications, Four Channels, Rds 90mΩ, SOIC-20W
+K driver fet quad
+F https://www.infineon.com/dgdl/Infineon-ITS724G-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428d6083e90
 $ENDCMP
 #
 $CMP L6491
@@ -996,6 +1020,18 @@ K Half-Bridge Gate Driver
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf
 $ENDCMP
 #
+$CMP NCD5702
+D High Current IGBT Gate, +4/-6A, SOIC-16
+K igbt gate driver
+F https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
+$ENDCMP
+#
+$CMP NCV8402xST
+D Self-Protected Low Side Driver with Temperature and Current Limit, SOT−223
+K MOSFET ESD Overcurrent
+F https://www.onsemi.com/pub/Collateral/NCV8402-D.PDF
+$ENDCMP
+#
 $CMP PE29101
 D UltraCMOS High-Speed FET Driver, 40 MHz, Output Current 2.0A/4.0A, 80V, Half Bridge, Low Side Output, CSP-16
 K GaN Gate Driver
@@ -1072,6 +1108,12 @@ $CMP UCC21520DW
 D Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W
 K Dual Isolated Gate Driver
 F http://www.ti.com/lit/ds/symlink/ucc21520.pdf
+$ENDCMP
+#
+$CMP UCC27714D
+D High-Speed, 600-V High-Side Low-Side Gate Driver, SOIC-14
+K gate driver bootstrap
+F http://www.ti.com/lit/ds/symlink/ucc27714.pdf
 $ENDCMP
 #
 $CMP ZXGD3001E6
